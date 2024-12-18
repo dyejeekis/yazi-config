@@ -1,0 +1,34 @@
+# file list layer
+[manager]
+
+prepend_keymap = [
+	{ on = "<S-k>", run = "arrow -25%",  desc = "Move cursor up quarter page" },
+	{ on = "<S-j>", run = "arrow 25%",   desc = "Move cursor down quarter page" },
+	{ on = "<C-k>", run = "arrow -50%",  desc = "Move cursor up half page" },
+	{ on = "<C-j>", run = "arrow 50%",   desc = "Move cursor down half page" },
+	{ on = "<C-d>", run = "arrow -100%", desc = "Move cursor up one page" },
+	{ on = "<C-f>", run = "arrow 100%",  desc = "Move cursor down one page" },
+]
+
+# task manager layer
+[tasks]
+
+# file info spotter layer
+[spot]
+
+# pick component (opent with) layer
+[pick]
+
+# input component (create, rename, etc) layer
+[input]
+
+prepend_keymap = [
+	{ on = "<C-h>",  run = "move -1", desc = "Move back a character" },
+	{ on = "<C-l>", run = "move 1",  desc = "Move forward a character" },
+]
+
+# completion component (e.g. cd path completion) layer
+[completion]
+
+# help menu layer
+[help]
